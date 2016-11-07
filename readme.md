@@ -268,7 +268,11 @@ Since all assets, locations, and transactions on blockchain can be tracked, asse
 # Implications for Enterprises
 
 
-VISA’S b2b platform promise to lowering of costs for auditing, investigations, and compliance and legal fees.
+For enterprises, the Asset Book will reduce time for inter-organizational asset transfers.  With its easy-to-use interface, the amount of time necessary to train employees on the software will be minuscule, and with the DAD system in place, asset transfers between companies will be simplified.  This will eliminate the need for costly ad hoc solutions and side chain deployments by enterprises.  
+	
+In the future, the inbuilt tracking mechanisms of Asset Book will lower costs for auditing and make compliance a much simpler process for both governments and enterprises reducing legal fees for corporations and businesses.
+
+As companies such as VISA expand on their Business-to-business blockchain offerings, Asset Book will become an essential solution for fast deployment and asset transference on blockchains. 
 
 
 	
