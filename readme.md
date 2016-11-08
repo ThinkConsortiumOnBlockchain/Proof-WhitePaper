@@ -1,12 +1,12 @@
 ![N|Solid](http://i.imgur.com/LLRzEbF.png)
 
-# Asset Book: A Cross-Blockchain Contract & Asset Management Platform
+# Proof: A Cross-Blockchain Contract & Asset Management Platform
 
 
 
 
 
-Asset Book is an agnostic, trustless system for transmitting information across multiple distributed ledgers, better known as “blockchains”. This solution allows digital agreements, cryptocurrencies, and digital assets to move between parties using different ledger types, managed via a decentralized application and synced via a sidechain. Specialized smart contracts, computer nodes, or a combination of the two designed for particular blockchain types serve as orchestrated oracle systems on top of participating blockchains, following a common standard for seamless synchronization of aggremement execution and asset recordation. This solution also relies on an easy-to-use interface which allows non-technical users to manage their land deeds, financial accounts, intellectual property holdings, identity, legal agreements, and other assets, taking advantage of the underlying trustless infrastructure.
+Proof is an agnostic, trustless system for transmitting information across multiple distributed ledgers, better known as “blockchains”. This solution allows digital agreements, cryptocurrencies, and digital assets to move between parties using different ledger types, managed via a decentralized application and synced via a sidechain. Specialized smart contracts, computer nodes, or a combination of the two designed for particular blockchain types serve as orchestrated oracle systems on top of participating blockchains, following a common standard for seamless synchronization of aggremement execution and asset recordation. This solution also relies on an easy-to-use interface which allows non-technical users to manage their land deeds, financial accounts, intellectual property holdings, identity, legal agreements, and other assets, taking advantage of the underlying trustless infrastructure.
 
 
 
@@ -85,7 +85,7 @@ Figure 1
 ![N|Solid](http://i.imgur.com/eOf1Znw.png)
 
 Figure 1 depicts how a user might transfer an asset from one blockchain to another, when an asset is transmitted from a blockchain that does not have smart contract capabilities. This figure also demonstrates how those assets might be unlocked and used later by another user on the originating blockchain. The arrows are numbered to demonstrate the flow of a possible set of transactions, as the asset moves from identity to identity. 
-In step 1, the originating user, sends assets to an Asset Book generated address. In steps 2 thru 3, The DAD is monitoring information of generated addresses and once the address confirms receipt of the transaction, the DAD then sends a representation of the asset to another blockchain, while copying the transaction to its sidechain.
+In step 1, the originating user, sends assets to an Proof generated address. In steps 2 thru 3, The DAD is monitoring information of generated addresses and once the address confirms receipt of the transaction, the DAD then sends a representation of the asset to another blockchain, while copying the transaction to its sidechain.
 In the proposed solution, that user can then transfer the asset within their own permissioned chain, and then a user can send the asset back to the originating chain. When this is done in step 4, a transaction is crafted using the secured key of the created address to send funds to the destination user at the bottom of the diagram. This transaction is also stored on the sidechain.
 
 When an asset or contract is transferred from one blockchain to another, a common protocol must be shared.  This allows the same asset to be transferred back to the originating chain and moved from there. To accomplish this, the private key or other credentials need to access the locked funds in the originating transfer address controlled by the proposed solution’s node and then access the holding address and transmit the asset in question.
@@ -108,7 +108,7 @@ My Transactions consist of transactions pertaining to assets to which are under 
 Organizations consists of a search of other identities and the current organizations a user has joined by permission of a particular organization.
 
 
-The multi-blockchain explorer consists of a record of public blockchains that the Asset Book has a node on, or if the blockchain is a private one, where or not a user has access to view along with the required conditions for access.    The explorer also allows the user to navigate through different transactions and view the state of smart contracts a user is tracking. 
+The multi-blockchain explorer consists of a record of public blockchains that the Proof has a node on, or if the blockchain is a private one, where or not a user has access to view along with the required conditions for access.    The explorer also allows the user to navigate through different transactions and view the state of smart contracts a user is tracking. 
 
 
 Settings contains the visibility options for a user, allowing them to create and trade assets anonymously or semi-anonymously.  It lists transactions user is participating in, their name, email and other personal details.
@@ -120,7 +120,7 @@ Within the my assets tab, a user can create an asset on a blockchain and manage 
 
 ![N|Solid](http://i.imgur.com/QX9jgWP.png)
 
-Figure  2 depicts an Asset Book portal user interface. In this mock-up, a user is shown creating a transaction to move a 50 bonds of HK Corportation stored on a public blockchain to an identity on a permissioned blockchain.
+Figure  2 depicts an Proof portal user interface. In this mock-up, a user is shown creating a transaction to move a 50 bonds of HK Corportation stored on a public blockchain to an identity on a permissioned blockchain.
 
 
 
@@ -130,13 +130,13 @@ Figure  2 depicts an Asset Book portal user interface. In this mock-up, a user i
 # Distributed Software Application
 
 
-Asset Book’s Distributed Application on Decentralized DNS (DAD) unifies these systems by connecting to Scopics which then act as oracles to legislate transactions and operate from an easy-to-use interface for placing/modifying/managing assets across multiple chains by people with differentiated technical expertise.  After transactions have completed, the DAD reads the final transaction and creates a record on a side-chain which allows for fast interactions and solid record keeping.
+Proof’s Distributed Application on Decentralized DNS (DAD) unifies these systems by connecting to Scopics which then act as oracles to legislate transactions and operate from an easy-to-use interface for placing/modifying/managing assets across multiple chains by people with differentiated technical expertise.  After transactions have completed, the DAD reads the final transaction and creates a record on a side-chain which allows for fast interactions and solid record keeping.
 
 The DAD handles a cryptographically secure database of private keys which allow for the seamless movement of assets across multiple chains, allowing assets deployed across many chains to interact and be traded.  
 
 An asset’s existence will be initiated by a user who can be an institution, an individual, or a proxy acting on behalf of either. User interaction with the underlying system will be handled by the UI with all actions on an asset  being recorded and handled by the DAD’s underlying protocol. 
 
-The DAD protocol will have a dual layer verification scheme consisting of payment verification and transaction verification.  For payment verification, Asset Book will check that actions on the parent chain successfully occurred using a standard Simple Payment Verification (SPV) proof such as the broom filter [A] or the proposed Ethereum Light client.  Second, before sending, the asset book builds and formats transactions insuring solid interoperability between blockchains. 
+The DAD protocol will have a dual layer verification scheme consisting of payment verification and transaction verification.  For payment verification, Proof will check that actions on the parent chain successfully occurred using a standard Simple Payment Verification (SPV) proof such as the broom filter [A] or the proposed Ethereum Light client.  Second, before sending, the Proof builds and formats transactions insuring solid interoperability between blockchains. 
 
 
 The DAD also holds any keys or authentication information in an encrypted format in order create transactions and verify identity to scopic oracles.  Initially, the encrypted storage will resemble the implementations laid out in Storj’s MetaDisk white paper.
@@ -147,9 +147,9 @@ Similarly, the DAD will monitor the movement of transactions on the to-chain as 
 Since interoperability is a primary goal of the entire system, the DAD system can potentially contain protocols for all of the major public and private blockchains including Bitcoin, Ethereum, Eris, Hyperledger Fabric, Chain, Dragonchain, Dash, and Ripple.  Expansion to any other asset chain, such as a bank’s private blockchain, will be supported with the cooperation of involved parties.  Likewise, for blockchains supported by a digital currency, actual value can be transmitted to users and entities.   
 
 
-Scopic are essential for the Asset Book DAD system.  Scopics act as intermediaries between the DAD, ‘to’ chains, and ‘from’ chains.  The scopic stores the address locations for assets on each chain while also performing the transactions on the chains.  The Scopics could be considered ‘oracles’ for the asset’s existence.  Each scopic manages the asset’s movement while holding funds and ensuring that an asset cannot be double-spent while keeping an immutable record of the transactions.
+Scopic are essential for the Proof DAD system.  Scopics act as intermediaries between the DAD, ‘to’ chains, and ‘from’ chains.  The scopic stores the address locations for assets on each chain while also performing the transactions on the chains.  The Scopics could be considered ‘oracles’ for the asset’s existence.  Each scopic manages the asset’s movement while holding funds and ensuring that an asset cannot be double-spent while keeping an immutable record of the transactions.
 
-The sidechain consists of blocks containing a record of each transaction run by the Asset book.  In a sense, it is a lightweight, chain-agnostic, implementation of the bitcoin sidechain protocol mentioned above.  The Asset Book Sidechain is based on the Ethereum blockchain which in turn is based on Bitcoin.  Written into blocks secured by a Proof-of-Work system, side-chain data will consist of the chain type of each interacting chain, the asset name and type, the two addresses on each chain, and the two addresses of the oracle scopics where the asset was both taken from and placed.  The side chain acts as a record of scopics and inter-scopic transactions  while the scopics act as records of transactions between the oracle scopic and the blockchain on which it is deployed.
+The sidechain consists of blocks containing a record of each transaction run by the Proof.  In a sense, it is a lightweight, chain-agnostic, implementation of the bitcoin sidechain protocol mentioned above.  The Proof Sidechain is based on the Ethereum blockchain which in turn is based on Bitcoin.  Written into blocks secured by a Proof-of-Work system, side-chain data will consist of the chain type of each interacting chain, the asset name and type, the two addresses on each chain, and the two addresses of the oracle scopics where the asset was both taken from and placed.  The side chain acts as a record of scopics and inter-scopic transactions  while the scopics act as records of transactions between the oracle scopic and the blockchain on which it is deployed.
 
 
 
@@ -161,8 +161,8 @@ The sidechain consists of blocks containing a record of each transaction run by 
 Figure 3 demonstrates how an asset in token form or input in cryptocurrency form can be transferred between smart contract-enabled blockchains. The diagram is split into 4 sections (from upper-left in counter-clock-wise or): 
 
 
-The user initiating a transaction on the Asset Book platform
-The Asset Book sidechain for tracking external blockchain information for tokens and currency moving between different blockchain 
+The user initiating a transaction on the Proof platform
+The Proof sidechain for tracking external blockchain information for tokens and currency moving between different blockchain 
 The originating blockchain of the asset in question, in this case similar to the Ethereum public blockchain
 The destination blockchain, in this case, a permissioned blockchain similar to a IBM Hyperledger Fabric chain.
 
@@ -174,7 +174,7 @@ To depict the process, numbered arrows are presented and can be described as fol
   2.  The Distributed Application on Decentralized DNS (DAD)  checks that the transaction is valid and formats the transactions to be broadcasted on the Ethereum network, using the user’s credential. The DAD then broadcasts that transaction to the ethereum network, sending funds from the user’s account to account.
   3.  The transaction created by the DAD sends funds to a smart contract serving as a locking address for the funds and also an oracle for the DAD network, serving as a ledger for fast search capabilities. 
   4.  The DAD queries the smart contract to check for funds confirmation. Once the funds confirmation is affirmed on the Ethereum network.
-  5.  Once the DAD reads and verifies the destination details from the scopic on the Ethereum network, it creates a transaction on the Asset Book sidechain, a fork of the Ethereum blockchain, which contains an immutable list of transactions between chains, with details of destination address with the writes to transmit it further or back to the Ethereum chain.
+  5.  Once the DAD reads and verifies the destination details from the scopic on the Ethereum network, it creates a transaction on the Proof sidechain, a fork of the Ethereum blockchain, which contains an immutable list of transactions between chains, with details of destination address with the writes to transmit it further or back to the Ethereum chain.
   6.  Once the transaction is saved on the sidechain, a representation of the asset is crafted on the Permissioned Fabric chain, thus the asset has thus moved from the Ethereum network to the Fabric network, with verification and transaction hashes saved on the sidechain.
 
 
@@ -249,17 +249,17 @@ A user can then track licensing agreements and receive funds to the desired addr
 # Real Asset Use Case
 
 
-Asset Book can monitor and manage the manufacture and distribution of a physical asset from the beginning of its existence to its eventual scrapping.   For instance, a manufacturer can take a newly created automobile, place the parts, model number, timestamp, and title on a blockchain using the Asset Book.
-After the manufacturing phase, the vehicle can then be tracked as it moves through the entire supply chain with addendums and compliance notes added to the asset book record.
+Proof can monitor and manage the manufacture and distribution of a physical asset from the beginning of its existence to its eventual scrapping.   For instance, a manufacturer can take a newly created automobile, place the parts, model number, timestamp, and title on a blockchain using the Proof.
+After the manufacturing phase, the vehicle can then be tracked as it moves through the entire supply chain with addendums and compliance notes added to the Proof record.
 
-Along with record keeping, the Asset Book Scopic system can also hold asset transfer based on the needs of the transaction.  For instance, if the vehicle needed emissions checks before entering the market, a government regulator could check the car for standards compliance and not until the model had been verified as emissions compliant would it be transfered to a dealer.  This compliance process could be integrated into any level of the Asset Book chain of ownership, including placing holds on manufacturing, sales, or leasing.
+Along with record keeping, the Proof Scopic system can also hold asset transfer based on the needs of the transaction.  For instance, if the vehicle needed emissions checks before entering the market, a government regulator could check the car for standards compliance and not until the model had been verified as emissions compliant would it be transfered to a dealer.  This compliance process could be integrated into any level of the Proof chain of ownership, including placing holds on manufacturing, sales, or leasing.
  
 # Implications for Government
 
 
-The Asset book is a system that will allow governments to go completely paperless with full confidence and ease.  The largest hurdle for blockchain's broad adoption, especially for governmental employees who must have an encyclopedic knowledge of regulations and processes while also juggling operations, is the high barrier to entry due to technical complications.  The asset book simplifies this by adding a user-friendly interface on top of a robust, chain-agnostic engine.   
+The Proof is a system that will allow governments to go completely paperless with full confidence and ease.  The largest hurdle for blockchain's broad adoption, especially for governmental employees who must have an encyclopedic knowledge of regulations and processes while also juggling operations, is the high barrier to entry due to technical complications.  The Proof simplifies this by adding a user-friendly interface on top of a robust, chain-agnostic engine.   
 
-Since all assets, locations, and transactions on blockchain can be tracked, asset book will cut down on required time, increase reliability, and reduce the cost of compliance and organizational resource distribution.  With countries and cities such as Dubai and the government of The United Kingdom investing billions into blockchain technology, Asset Book expedites the process of adopting blockchain into processes such as internal asset transfer, voting, and record keeping.  
+Since all assets, locations, and transactions on blockchain can be tracked, Proof will cut down on required time, increase reliability, and reduce the cost of compliance and organizational resource distribution.  With countries and cities such as Dubai and the government of The United Kingdom investing billions into blockchain technology, Proof expedites the process of adopting blockchain into processes such as internal asset transfer, voting, and record keeping.  
 
 
 
@@ -269,11 +269,11 @@ Since all assets, locations, and transactions on blockchain can be tracked, asse
 
 
 
-For enterprises, the Asset Book will reduce time for inter-organizational asset transfers.  With its easy-to-use interface, the amount of time necessary to train employees on the software will be minuscule, and with the DAD system in place, asset transfers between companies will be simplified.  This will eliminate the need for costly ad hoc solutions and side chain deployments by enterprises.  
+For enterprises, the Proof will reduce time for inter-organizational asset transfers.  With its easy-to-use interface, the amount of time necessary to train employees on the software will be minuscule, and with the DAD system in place, asset transfers between companies will be simplified.  This will eliminate the need for costly ad hoc solutions and side chain deployments by enterprises.  
 	
-In the future, the inbuilt tracking mechanisms of Asset Book will lower costs for auditing and make compliance a much simpler process for both governments and enterprises reducing legal fees for corporations and businesses.
+In the future, the inbuilt tracking mechanisms of Proof will lower costs for auditing and make compliance a much simpler process for both governments and enterprises reducing legal fees for corporations and businesses.
 
-As companies such as VISA expand on their Business-to-business blockchain offerings, Asset Book will become an essential solution for fast deployment and asset transference on blockchains.     
+As companies such as VISA expand on their Business-to-business blockchain offerings, Proof will become an essential solution for fast deployment and asset transference on blockchains.     
 
 VISA’S b2b platform promise to lowering of costs for auditing, investigations, and compliance and legal fees.
 
