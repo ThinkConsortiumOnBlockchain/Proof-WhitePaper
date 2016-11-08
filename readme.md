@@ -6,7 +6,7 @@
 
 
 
-Asset Book is an agnostic, trustless system for transmitting information across multiple distributed ledgers, better known as “blockchains”, would allow digital agreements, cryptocurrencies, and digital assets to move between parties using different ledger types. Specialized smart contracts, computer nodes, or a combination of the two designed for particular blockchain types serve as intermediaries between their respective blockchains and a distributed software application that manages the transfer of records from one ledger to the next. An additional portion of the solution relies on an easy-to-use interface that allows non-technical users to manage their land deeds, financial accounts, intellectual property holdings, identity, legal agreements, and other assets.
+Asset Book is an agnostic, trustless system for transmitting information across multiple distributed ledgers, better known as “blockchains”. This solution allows digital agreements, cryptocurrencies, and digital assets to move between parties using different ledger types, managed via both a decentralized appliction and a synced via a sidechain. Specialized smart contracts, computer nodes, or a combination of the two designed for particular blockchain types serve as orchestrated oracle systems on top of participating blockchains, following a common standard for seamless syncronization of aggremement execution and asset recordation. This solution also relies on an easy-to-use interface which allows non-technical users to manage their land deeds, financial accounts, intellectual property holdings, identity, legal agreements, and other assets, taking advantage of the underlying trustless infrastructure.
 
 
 
