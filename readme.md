@@ -15,7 +15,7 @@ Proof is an agnostic, trustless system for transmitting information across multi
 # Introduction
 
 
-Administration of rights, agreements and ownership of assets currently consists of fragmented processes, especially when participating parties reside in or are different institutions or exist in different legal jurisdictions. Often times, transfer of asset ownership occurs on government-regulated exchanges or between licensed brokers while expensive settlement processes must finalize deals and administer certificates or funds involved in transactions. Currently, financial institutions and other organizations are introducing blockchain technologies in order to solve the problem of settlement upon transaction.  While Visa leverages technology provided by Chain for fund transfer, Nasdaq is currently leveraging Chain technology for the trade and settlement of over-the-counter stock trades, and The Japan Exchange Group has begun experimenting with IBM’s Fabric blockchain. While the blockchain solutions of these companies solve settlement and trade latency issues, they do not address the fragmentation of asset ownership certification information.
+Administration of rights, agreements and ownership of assets currently consists of fragmented processes, especially when participating parties reside in or are different institutions or exist in different legal jurisdictions. Often times, transfer of asset ownership occurs on government-regulated exchanges or between licensed brokers while expensive settlement processes must finalize deals and administer certificates or funds involved in transactions. Currently, financial institutions and other organizations are introducing blockchain technologies in order to solve the problem of settlement upon transaction.  While Visa leverages technology provided by Chain for fund transfer, Nasdaq is currently leveraging Chain technology for the trade and settlement of over-the-counter stock trades, and The Japan Exchange Group has begun experimenting with Hyperledger Fabric blockchain. While the blockchain solutions of these companies solve settlement and trade latency issues, they do not address the fragmentation of asset ownership certification information.
 
 
 When the creator of intellectual property licenses rights to an organization, royalty payments and any disputes arising from the agreement are part of a decentralized process that often can be expensive and fraught with error.  These errors can arise from human error or poor information management.
@@ -164,7 +164,7 @@ Figure 3 demonstrates how an asset in token form or input in cryptocurrency form
 The user initiating a transaction on the Proof platform
 The Proof sidechain for tracking external blockchain information for tokens and currency moving between different blockchain 
 The originating blockchain of the asset in question, in this case similar to the Ethereum public blockchain
-The destination blockchain, in this case, a permissioned blockchain similar to a IBM Hyperledger Fabric chain.
+The destination blockchain, in this case, a permissioned blockchain similar to a Hyperledger Fabric chain.
 
 
 To depict the process, numbered arrows are presented and can be described as follows:
