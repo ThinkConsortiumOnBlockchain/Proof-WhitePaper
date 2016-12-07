@@ -303,7 +303,7 @@ Currently, there are consortiums forming around the world, from R3’s 80+ globa
 	
 # Open development and technical collaboration
 
-In regards to solution development, it will be important to have the underlying distributed software package open-source so that as many nodes as possible can work ro ensure the integrity of the system. Furthermore, additional development and more eyes from around the world working on the project, penetration testing it, etc. will ensure maximum security, trust scalability, and software improvements/maintenance.
+In regards to solution development, it will be important to have the underlying distributed software package open-source so that as many nodes as possible can work to ensure the integrity of the system. Furthermore, additional development and more eyes from around the world working on the project, penetration testing it, etc. will ensure maximum security, trust scalability, and software improvements/maintenance.
 
 
 # Strong, easy-to-understand, multi-lingual and free educational material distribution
