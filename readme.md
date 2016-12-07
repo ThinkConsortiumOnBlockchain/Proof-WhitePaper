@@ -108,7 +108,7 @@ My Transactions consist of transactions pertaining to assets to which are under 
 Organizations consists of a search of other identities and the current organizations a user has joined by permission of a particular organization.
 
 
-The multi-blockchain explorer consists of a record of public blockchains that the Proof has a node on, or if the blockchain is a private one, where or not a user has access to view along with the required conditions for access.    The explorer also allows the user to navigate through different transactions and view the state of smart contracts a user is tracking. 
+The multi-blockchain explorer consists of a record of public blockchains that Proof has a node on, or if the blockchain is a private one, where or not a user has access to view along with the required conditions for access.    The explorer also allows the user to navigate through different transactions and view the state of smart contracts a user is tracking. 
 
 
 Settings contains the visibility options for a user, allowing them to create and trade assets anonymously or semi-anonymously.  It lists transactions user is participating in, their name, email and other personal details.
@@ -136,7 +136,7 @@ The DAD handles a cryptographically secure database of private keys which allow 
 
 An asset’s existence will be initiated by a user who can be an institution, an individual, or a proxy acting on behalf of either. User interaction with the underlying system will be handled by the UI with all actions on an asset  being recorded and handled by the DAD’s underlying protocol. 
 
-The DAD protocol will have a dual layer verification scheme consisting of payment verification and transaction verification.  For payment verification, Proof will check that actions on the parent chain successfully occurred using a standard Simple Payment Verification (SPV) proof such as the broom filter [A] or the proposed Ethereum Light client.  Second, before sending, the Proof builds and formats transactions insuring solid interoperability between blockchains. 
+The DAD protocol will have a dual layer verification scheme consisting of payment verification and transaction verification.  For payment verification, Proof will check that actions on the parent chain successfully occurred using a standard Simple Payment Verification (SPV) proof such as the broom filter [A] or the proposed Ethereum Light client.  Second, before sending, Proof builds and formats transactions insuring solid interoperability between blockchains. 
 
 
 The DAD also holds any keys or authentication information in an encrypted format in order create transactions and verify identity to scopic oracles.  Initially, the encrypted storage will resemble the implementations laid out in Storj’s MetaDisk white paper.
@@ -186,8 +186,12 @@ To depict the process, numbered arrows are presented and can be described as fol
 
 # Financial Instrument Use Case
 
+Asset managers, brokerages, exchanges, clearing houses and regulated depositories transfer asset ownership records between one another representing the moment of over $1 trillion in transactions per day globally. In regards to equity markets, such as NYSE, exchanges must send bulk requests to depositories, who actually maintain equity and other ownership records. For other trades such as property, etc, records are typically maintained in a government agency. The time it takes for actual transfer of ownership to occur can take days, and in the event of clerical and machine errors, weeks. The overhead cost for this entire process is high and inefficient. 
+By each of these parties engaged in transactions to move funds and asset records of ownership between one another would allow for the concept of “settlement-upon-trade”. Additionally, there is the added benefit of proven ownership for all parties engaged, making the ownership records less opaque to involved parties. 
 
-*Mutual funds, ETFs, brokers, investors, ecosystem description. Explanation of where benefits of blockchain arise from : Settlement upon trade, consensus regarding transactions, consensus among credit and reputation information, pre-correctness
+
+The following is an example of a financial instrument smart contract:
+
 ```javascript
 contract asset{
     
@@ -230,9 +234,6 @@ contract asset{
 ```
 
 
-# Financial Instrument Use Case
-
-Financial Instrument transactions included exchanges and issuance of bonds, insurance policies, company shares, derivitives, and packages composed of a collection of each. Each of these asset classes can be represented using a token contract on a smart contract-enabled chain or via the Open Asset Protocol. When an institution issues a loan, they effectively exchange currency or highly liquid asset on the blockchain for tokens composed of units aligning with the interest and other agreements set forth in a contract template for the particular kinds/terms of the asset class. These tokens can be exchanged between instituions. A user issues repayment for their bods with interest to the token smart contract, which delegates ownership to holders of cooresponding tokens. A similar case can be used to prove ownerships of shares, packages, and other assets using these token, and recieve benefits, such as dividends in the case of stocks. The benefit of using smart contracts on top of interoperable blockchain's via the proposed solution is for simultenous settlment upon trade, as well as assurance of compliance and legal recognition granted via immutable agreements templates that make the issuances possible. 
 
 # Intellectual Property Use Case
 
@@ -249,7 +250,7 @@ A user can then track licensing agreements and receive funds to the desired addr
 # Real Asset Use Case
 
 
-Proof can monitor and manage the manufacture and distribution of a physical asset from the beginning of its existence to its eventual scrapping.   For instance, a manufacturer can take a newly created automobile, place the parts, model number, timestamp, and title on a blockchain using the Proof.
+Proof can monitor and manage the manufacture and distribution of a physical asset from the beginning of its existence to its eventual scrapping.   For instance, a manufacturer can take a newly created automobile, place the parts, model number, timestamp, and title on a blockchain using Proof.
 After the manufacturing phase, the vehicle can then be tracked as it moves through the entire supply chain with addendums and compliance notes added to the Proof record.
 
 Along with record keeping, the Proof Scopic system can also hold asset transfer based on the needs of the transaction.  For instance, if the vehicle needed emissions checks before entering the market, a government regulator could check the car for standards compliance and not until the model had been verified as emissions compliant would it be transfered to a dealer.  This compliance process could be integrated into any level of the Proof chain of ownership, including placing holds on manufacturing, sales, or leasing.
@@ -257,7 +258,7 @@ Along with record keeping, the Proof Scopic system can also hold asset transfer 
 # Implications for Government
 
 
-The Proof is a system that will allow governments to go completely paperless with full confidence and ease.  The largest hurdle for blockchain's broad adoption, especially for governmental employees who must have an encyclopedic knowledge of regulations and processes while also juggling operations, is the high barrier to entry due to technical complications.  The Proof simplifies this by adding a user-friendly interface on top of a robust, chain-agnostic engine.   
+Proof is a system that will allow governments to go completely paperless with full confidence and ease.  The largest hurdle for blockchain's broad adoption, especially for governmental employees who must have an encyclopedic knowledge of regulations and processes while also juggling operations, is the high barrier to entry due to technical complications.  Proof simplifies this by adding a user-friendly interface on top of a robust, chain-agnostic engine.   
 
 Since all assets, locations, and transactions on blockchain can be tracked, Proof will cut down on required time, increase reliability, and reduce the cost of compliance and organizational resource distribution.  With countries and cities such as Dubai and the government of The United Kingdom investing billions into blockchain technology, Proof expedites the process of adopting blockchain into processes such as internal asset transfer, voting, and record keeping.  
 
@@ -269,7 +270,7 @@ Since all assets, locations, and transactions on blockchain can be tracked, Proo
 
 
 
-For enterprises, the Proof will reduce time for inter-organizational asset transfers.  With its easy-to-use interface, the amount of time necessary to train employees on the software will be minuscule, and with the DAD system in place, asset transfers between companies will be simplified.  This will eliminate the need for costly ad hoc solutions and side chain deployments by enterprises.  
+For enterprises, Proof will reduce time for inter-organizational asset transfers.  With its easy-to-use interface, the amount of time necessary to train employees on the software will be minuscule, and with the DAD system in place, asset transfers between companies will be simplified.  This will eliminate the need for costly ad hoc solutions and side chain deployments by enterprises.  
 	
 In the future, the inbuilt tracking mechanisms of Proof will lower costs for auditing and make compliance a much simpler process for both governments and enterprises reducing legal fees for corporations and businesses.
 
@@ -281,7 +282,7 @@ VISA’S b2b platform promise to lowering of costs for auditing, investigations,
 # Implications for Consumers
 
 
-Why consumers benefit and how they can protect themselves in the case of insurance and other areas where trust will rely less on institutions and ability to take control of their assets, agreements, etc. and also purchase and use them in more informed fashions, making the entire ecosystem of the aforementioned entities more efficient.
+Why consumers benefit and how they can protect themselves in the case of insurance and other areas where trust will rely less on institutions, depends on how consumers are educated about leveraging blockchain technology. The ability for consumers to take control of their assets, agreements, etc. and also purchase and use them in more informed fashion makes the entire ecosystem of the aforementioned entities more efficient.
 
 
 
